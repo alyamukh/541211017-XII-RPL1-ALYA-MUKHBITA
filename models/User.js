@@ -11,7 +11,7 @@ const UserSchema = new mongoose.Schema({
     required: true,
     match: [
       /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-      "Silahkan Isi Email dengan valid!",
+      "Silahkan Isi Email dengan validd!",
     ],
   },
 });
